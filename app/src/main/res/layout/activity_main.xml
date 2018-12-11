@@ -1,0 +1,23 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.MainActivity">
+
+    <data class="MainActivityBinding">
+
+        <variable
+            name="viewModel"
+            type="com.soulkitchen.serifenuruysal.trendgithubandroidapp.viewModel.ListViewModel" />
+    </data>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvMostPopular"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:fillViewport="true" />
+
+
+</layout>

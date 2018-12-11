@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TrendGithubAndroidApp</string>
+    <string name="forkcount">forkCount</string>
+    <string name="language">language</string>
+    <string name="profil">profil</string>
+    <string name="todo">TODO</string>
+    <string name="star">star</string>
+</resources>
